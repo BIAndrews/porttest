@@ -64,4 +64,4 @@ Specify the port of the target to test
 
 ## Limitations
 
-Python is the only requirement and comes installed with all modern Linux flavors. UDP is inherently difficult to test for. Due to the nature of UDPs fire-and-forget packet it is up to the destination service application to respond in a detectable way. If the destination service port is closed or the service doesn’t respond there is no way to detect if the packet was received or not. 
+Python is the only requirement and comes installed with all modern Linux flavors. UDP is inherently difficult to test for. Due to the nature of UDPs fire-and-forget packet it is up to the destination service application to respond in a detectable way. If the destination service port is closed or the service doesn
